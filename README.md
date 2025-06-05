@@ -72,3 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 >>>>>>> 293f8aa (Primer commit del proyecto en la rama Semana1)
+Docker
+docker build -t docker-react-image:1.0 .
+docker image ls
+docker run -p 4000:80 --name docker-react-container docker-react-image:1.0
